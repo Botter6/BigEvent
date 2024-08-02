@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/big_event
+    username: root
+    password: 123456
+  data:
+    redis:
+      host: localhost
+      port: 6379
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true #开启驼峰命名和下划线命名的自动转换
+oss:
+  accessKey: 5SSql4g1b9nLda1eX796Zsdu64yeQ6zrwTsbVY8Z
+  secretKey: V7-3YxDHgfVOM1pnGJiQvqLyMxp75LAbL2zYqIPV
+  bucket: hmleadnews
+server:
+  port: 8080
+  servlet:
+    context-path: /
